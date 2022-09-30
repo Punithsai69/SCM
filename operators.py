@@ -57,7 +57,7 @@ class ATM():
     def check_balance(self):
         print("Available balance: Nu.", self.balance)
         print()
- 
+
     def transaction(self):
         print("""
             TRANSACTION 
