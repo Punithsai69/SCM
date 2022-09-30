@@ -1,0 +1,17 @@
+
+class f:
+    def __init__(self,height,width,color):
+        self.h=height
+        self.w=width
+        self.c=color
+
+    def display(self):
+        print("height of the table",self.h)
+        print("width of the table", self.w)
+        print("color of the table", self.c)
+
+
+t1=f(5.5,6.5,"green")
+t1.display()
+t2=f(5.8,4.5,"blue")
+t2.display()
